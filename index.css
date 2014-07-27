@@ -1,0 +1,32 @@
+.img-check {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 9999;
+}
+
+.img-check-on {
+    background: url("./image/check.png") no-repeat 0 0;
+}
+.img-check-off {
+    background: url("./image/uncheck.png") no-repeat 0 0;
+}
+
+input {
+    margin: 10px 2px 13px 9px;
+}
+
+#name3 {
+    margin: 50px;
+}
+
+.item-body {
+    position: absolute;
+    left: 300px;
+    top: 0;
+}
+
+.img-check:hover {
+    /*background: none;*/
+    /*background-color: red;*/
+}
